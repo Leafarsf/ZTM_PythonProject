@@ -1,0 +1,6 @@
+name = str(input("Username: "))
+password = str(input("Password: "))
+password_hidden = '*' * len(password)
+print('-=-'*20)
+print(f"Hello, {name}, your password {password_hidden} is {len(password)} characters long.")
+print('-=-'*20)
